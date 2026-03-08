@@ -1,0 +1,202 @@
+
+/* GLOBAL STYLING */
+
+html { 
+scroll-behavior: smooth; 
+font-family: "Funnel Sans", sans-serif;
+}
+
+body{
+    background-image: url(./images/boliviainteligente-wrMbee9-KSM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+}
+
+
+/* DELT STYLING FOR ALLE SEKSJONENE */
+.content{
+    color: white;
+    height: 100vh;
+}
+
+
+/* STYLING FOR HEADER */
+
+#headline{
+    color: white;
+    
+    
+}
+
+.headerMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 175px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.headerLeft{
+    border: 2px solid black;
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+    background-color: black;
+
+
+
+}
+
+.headerRight {
+    
+    display: flex;
+
+
+}
+
+.navBar{
+    margin-right: 50px;
+    display: flex;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50px;
+    
+
+    
+}
+
+/* STYLING FOR UL/A ELEMENTER, LIGGER I HEADER */
+
+a, ul{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 10px;
+}
+
+
+
+/* STYLING FOR HERO/MAIN */
+
+#home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+    
+
+}
+
+#homeHeadline{
+    padding: 10px;
+    font-size: 50px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+
+}
+.homeContainer{
+    height: 500px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50px;
+    
+}
+
+.textHome{
+    background-color: rgba(0,0,0,0.7);
+    height: 200px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+
+/* STYLING FOR INFORMASJON-SEKSJON */
+
+#information{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#informationHeadline{
+    margin-top: 150px;
+}
+
+.informationContainer{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 50px;
+}
+
+.informationContainerTop{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#informationContainerTopCards{
+    width: 350px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 20px;
+}
+
+.informationContainerBottom{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 800px;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+#informationContainerBottomCards{
+    width: 350px;
+    margin: 20px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 15px;
+    
+}
+
+/* Styling for funFacts */
+
+#funFacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
