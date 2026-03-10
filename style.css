@@ -23,6 +23,12 @@ body{
     height: 100vh;
 }
 
+.section-divider{
+    height: 150px;
+    width: 100%;
+    background-color: gray;
+    opacity: 80%;
+}
 
 /* STYLING FOR HEADER */
 
@@ -203,7 +209,7 @@ a, ul{
 .funFactsContainer{
     width: 70%;
     height: 60%;
-    background-color: white;
+    background-color: rgba(0,0,0,0.6);
     margin: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -216,11 +222,12 @@ a, ul{
     height: 65%;
     width: 18%;
     background-color: black;
-    border: 2px solid red;
+    border: 2px solid white;
     border-radius: 15px;
-    box-shadow: 6px 6px 25px 1px red;
+    box-shadow: 6px 6px 10px 1px whitesmoke;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -231,6 +238,8 @@ a, ul{
     background-size: cover;
     background-position: center; 
     display: flex;
+    opacity: 90%;
+    text-shadow: 0 0 3px darkslategray; 
     
     
 }
@@ -240,7 +249,47 @@ a, ul{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 90%;
+    text-shadow: 0 0 3px darkslategray;
 }
+
+.funFactCard.three{
+    background-image:url(./images/teleskop\ bilde\ saturn.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 90%;
+    text-shadow: 0 0 3px darkslategray;
+}
+
+.funFactCard.four{
+    background-image: url(./images/saturn\ time.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 90%;
+    text-shadow: 0 0 3px darkslategray;
+}
+
+.funFactCard.five{
+    background-image: url(./images/saturn\ seasons.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 90%;
+    text-shadow: 0 0 3px darkslategray;
+}
+
+
+#footer{
+    height: 50px;
+    background-color: gray;
+    opacity: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 
