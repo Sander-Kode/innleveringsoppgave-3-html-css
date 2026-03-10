@@ -101,7 +101,7 @@ a, ul{
 
 #homeHeadline{
     padding: 10px;
-    font-size: 50px;
+    font-size: 60px;
     background-color: rgba(0,0,0,0.6);
     border-radius: 10px;
 
@@ -194,6 +194,54 @@ a, ul{
     align-items: center;
     text-align: center;
 }
+
+#funFactsHeadline{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.funFactsContainer{
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    margin: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.funFactCard {
+    height: 65%;
+    width: 18%;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 15px;
+    box-shadow: 6px 6px 25px 1px red;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.funFactCard.one {
+    background-image: url(./images/planet-volumes-4NCABZm3WmM-unsplash.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    
+    
+}
+
+.funFactCard.two{
+    background-image: url(./images/planet-volumes-qxIObOAjoOc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 
